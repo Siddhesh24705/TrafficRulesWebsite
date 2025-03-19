@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff2647;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #295eff;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: rgb(243, 249, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #750000;
+    color: rgb(236, 247, 255);
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers all items in a row */
+    gap: 20px; /* Spacing between images */
+    padding: 20px; /* Adds spacing around */
+}
+
+.image-item {
+    text-align: center;
+    width: 120px; /* Adjust as per your image size */
+}
+
+.image-item img {
+    width: 100px; /* Set fixed width for images */
+    height: auto;
+    border-radius: 10px; /* Optional: gives rounded edges */
+}
+.traffic-rules {
+    text-align: left;
+    max-width: 800px; /* Optional: Limits width for better readability */
+    margin: 0 auto; /* Centers the block while keeping text left-aligned */
+}
+.link-container {
+    display: flex;
+    justify-content: center; /* Centers the links */
+    gap: 50px; /* Adjust the spacing between links */
+    margin-top: 10px;
+}
+
+.link-container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
